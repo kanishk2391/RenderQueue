@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RenderQueue</class>
+ <widget class="QMainWindow" name="RenderQueue">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_5">
+    <property name="margin">
+     <number>2</number>
+    </property>
+    <property name="spacing">
+     <number>2</number>
+    </property>
+    <item row="1" column="1">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_14">
+       <property name="margin">
+        <number>3</number>
+       </property>
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_7">
+         <property name="margin">
+          <number>2</number>
+         </property>
+         <item row="1" column="1">
+          <widget class="QFrame" name="frame_2">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_8">
+            <property name="margin">
+             <number>2</number>
+            </property>
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item row="2" column="0">
+             <layout class="QGridLayout" name="gridLayout_9">
+              <item row="6" column="4">
+               <widget class="QPushButton" name="viewPlayblast_button">
+                <property name="text">
+                 <string>View PlayBlast</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.viewPlayblast()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QPushButton" name="openFile_button">
+                <property name="text">
+                 <string>OpenFile</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.openFile()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2" colspan="3">
+               <widget class="QPushButton" name="submit_button">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="palette">
+                 <palette>
+                  <active>
+                   <colorrole role="Button">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>0</red>
+                      <green>129</green>
+                      <blue>58</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Light">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>0</red>
+                      <green>193</green>
+                      <blue>93</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Midlight">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>52</red>
+                      <green>179</green>
+                      <blue>33</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                  </active>
+                  <inactive>
+                   <colorrole role="Button">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>0</red>
+                      <green>129</green>
+                      <blue>58</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Light">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>0</red>
+                      <green>193</green>
+                      <blue>93</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Midlight">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>52</red>
+                      <green>179</green>
+                      <blue>33</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                  </inactive>
+                  <disabled>
+                   <colorrole role="Button">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>0</red>
+                      <green>129</green>
+                      <blue>58</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Light">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>0</red>
+                      <green>193</green>
+                      <blue>93</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Midlight">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>52</red>
+                      <green>179</green>
+                      <blue>33</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                  </disabled>
+                 </palette>
+                </property>
+                <property name="text">
+                 <string>Submit +</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.submitFile()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="3">
+               <widget class="QPushButton" name="viewImagePlane_button">
+                <property name="text">
+                 <string>ViewImagePlane</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.viewImagePlane()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QPushButton" name="refresh_button">
+                <property name="minimumSize">
+                 <size>
+                  <width>20</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>250</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>RefreshList</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.refreshList()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="2">
+               <widget class="QPushButton" name="openFolder_button">
+                <property name="text">
+                 <string>OpenFolder</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.openFolder()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="4">
+               <widget class="QPushButton" name="delete_button">
+                <property name="minimumSize">
+                 <size>
+                  <width>20</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Delete (-)</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.deleteAnimItem()&quot;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <widget class="QListWidget" name="animList">
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+                <underline>false</underline>
+               </font>
+              </property>
+              <property name="+selectCommand" stdset="0">
+               <string>&quot;i.itemSelected()&quot;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string>Animation Queue</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QFrame" name="frame_3">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_10">
+            <property name="margin">
+             <number>2</number>
+            </property>
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item row="2" column="0">
+             <layout class="QGridLayout" name="gridLayout_11">
+              <item row="0" column="2">
+               <widget class="QPushButton" name="refreshLightList_button">
+                <property name="text">
+                 <string>RefreshList</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.refreshLightList()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QPushButton" name="clearLog_button">
+                <property name="text">
+                 <string>Clear Log</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.clearLog()&quot;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="pushButton">
+                <property name="text">
+                 <string>Delete(-)</string>
+                </property>
+                <property name="+command" stdset="0">
+                 <string>&quot;i.deleteLightItem()&quot;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <widget class="QListWidget" name="lightList">
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_2">
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string>Lighting Queue</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="0" column="2" rowspan="2">
+          <widget class="QPushButton" name="addToLight_button">
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>200</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>&gt;&gt;</string>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+           <property name="default">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>false</bool>
+           </property>
+           <property name="+command" stdset="0">
+            <string>&quot;i.addToLight()&quot;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_13">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <item row="2" column="2">
+             <widget class="QLabel" name="imageplane_label">
+              <property name="maximumSize">
+               <size>
+                <width>200</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="lineWidth">
+               <number>1</number>
+              </property>
+              <property name="text">
+               <string>ImagePlane = </string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="time_label">
+              <property name="maximumSize">
+               <size>
+                <width>200</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string>Submit Time = </string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="playblast_label">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string>PlayBlast = </string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="frame_label">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string>Frames = </string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
